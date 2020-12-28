@@ -4,10 +4,15 @@
 	"author": "Tomas Kafka <tk@tomaskafka.com>",
 	"version": "0.0.3",
 	"repository": "https://github.com/tkafka/node-elizabot.git",
-	"main": "elizabot.js",
+	"scripts": {
+	  "build": "tsc"
+	},
+	"main": "dist/elizabot.js",
+	"types": "dist/elizabot.d.ts",
 	"dependencies": {},
 	"devDependencies": {
-		"eslint": "^7.0.0"
+		"eslint": "^7.0.0",
+		"typescript": "^4.1.3"
 	},
 	"engine": "node >= 0.6"
 }
